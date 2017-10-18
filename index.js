@@ -10,11 +10,13 @@ function printBadges(names){
 
 
 function tailsNeverFails(){
-  let tails;
+
+  function tails () {
+  return Math.random() <= 0.5;
+}
   let counter = 0
 
-  while (tails){
-    tails = Math.random() <= 0.5;
+  while (tails()){
     ++counter;
   }
 
