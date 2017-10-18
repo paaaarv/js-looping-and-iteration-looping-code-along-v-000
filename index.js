@@ -10,7 +10,7 @@ function printBadges(names){
 
 
 function tailsNeverFails(){
-  let tails;
+  let tails = .1;
   let counter = 0
 
   while (tails){
