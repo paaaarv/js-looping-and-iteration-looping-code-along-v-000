@@ -3,8 +3,8 @@
 function printBadges(names){
 
  for (let counter = 0, counter < names.length, counter++ ){
-   console.log(`Welcome ${name}! You are employee #${counter+1}.`)
+   console.log(`Welcome ${name}! You are employee #${counter+1}.`);
  }
- return names
+ return names;
 
 }
